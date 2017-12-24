@@ -1,0 +1,316 @@
+<html>
+  <head>
+<title>test.html</title>
+
+<!-- 連結套用-->
+<link rel="stylesheet" href="APP.css">
+
+<!--標籤-->
+<style>
+.pink-bg {
+  background-color: pink;
+}
+</style>
+
+<!-- 文字大小 -->
+<style>
+.douyetong-wordsize {
+  font-size: 30px;
+}
+</style>
+
+<!-- 文字樣式 -->
+<style>
+.douyetong-font {
+  font-family: 標楷體;
+}
+  </style>
+
+  <!-- 文字對齊-->
+  <style>
+.douyetong-left {
+  text-align: left;
+}
+.douyetong-center {
+  text-align: center;
+}  .douyetong-right {
+  text-align: right;
+}
+  </style>
+
+  <!-- 底線、刪除線、頂線 -->
+  <style>
+  .douyetong-underline {
+    text-decoration: underline;
+  }
+  .douyetong-linethrough {
+    text-decoration: line-through;
+  }
+  .douyetong-overline {
+    text-decoration: overline;
+  }
+</style>
+
+  <!-- 字元間距 -->
+  <style>
+  .douyetong-letterspacing {
+    letter-spacing: 10px;
+  }
+  </style>
+
+  <!-- 單字間距 -->
+  <style>
+  .douyetong-wordspacing {
+    word-spacing: 10Px;
+  }
+  </style>
+
+  <!--行距 -->
+  <style>
+  .douyetong-lineheight {
+    line-height: 40px;
+  }
+  </style>
+
+  <!-- 加線區塊 (線寬 線色 寬度)-->
+  <style>
+  .douyetong-bordersolid {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+  }
+  </style><br>
+
+  <!--與上行文字間距-->
+  <style>
+  .douyetong-margintop{
+    border:1px solid red;
+    margin-top: 50px
+  }
+  </style>
+
+  <!--margin-->
+  <style>
+  .douyetong-margin{
+    margin: 10px 10px 10px 10px;
+  }
+  </style>
+
+  <!--內距-->
+  <style>
+  .douyetong-padding{
+    border: 1px solid red;
+    padding: 10px 10px 10px 10px;
+  }
+  </style>
+
+  <!-- 以現在位置為基準 -->
+  <style>
+  .douyetong-posittionrelative {
+    position: relative;
+    top: : 50px;
+    right: 50px;
+}
+  </style>
+
+  <!--以整個網頁可是範圍為基準點-->
+  <style>
+  .douyetong-fixed{
+    position: fixed;
+    top: : 50px;
+    right: 50px;
+  }
+  </style>
+
+  <!--以有定位的外層標籤為基準-->
+  <style>
+  .box-a {
+    background-color: lightgreen;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border: 1px solid red;
+  }
+  .box-b{
+    background-color:lightyellow;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+  }
+  </style>
+
+  <!--hover-->
+  <style>
+  .my-class {
+    background-color: yellow;
+  }
+  .my-class:hover {
+    background-color: pink;
+  }
+  </style>
+
+  <!-- media queiries-->
+<style>
+body{
+  background-color: yellow;
+}
+@media screen and (max-width: 500px) {
+body {
+  background-color: lightgreen;
+}
+}
+</style>
+
+  </head>
+
+  <body>
+    <span>你</span>
+    <span>我</span>
+    <span>他</span>
+
+<!-- 對應 【標籤】-->
+<span class="pink-bg">豆頁</span>
+<span class="pink-bg">可可</span><br><br>
+
+<!-- 對應 【文字大小】-->
+一般的文字
+<div class="douyetong-wordsize">
+大小30的文字
+</div><br>
+
+<!--對應【文字樣式】 -->
+一般字體
+<div class="douyetong-font">
+標楷體字體
+</div><br>
+
+<!-- 對應文字對齊 -->
+<div class="douyetong-left">
+豆頁痛左
+</div>
+<div class="douyetong-center">
+豆頁痛中
+</div>
+<div class="douyetong-right">
+豆頁痛右
+</div><br>
+
+<!-- 對應底線、刪除線、頂線-->
+<div class="douyetong-underline">
+  底線
+</div>
+<div class="douyetong-linethrough">
+  刪除線
+</div>
+<div class="douyetong-overline">
+  頂線
+</div><br>
+
+<!-- 對應字元間距  -->
+普通RAZER
+<div class="douyetong-letterspacing">
+  月巴字元間距RAZER
+</div><br>
+
+<!-- 對應單字間距 -->
+普通hype
+<div class="douyetong-wordspacing">
+  月巴單字間距 hype IS FAT
+</div><br>
+
+<!-- 對應行距 -->
+千呼萬喚始出來的 Razer 旗下首支智慧型手機「Razer Phone」，已經在台灣時間今（2）凌晨 4:00 的倫敦發表會公開，針對遊戲玩家提供 120Hz 畫面更新率、4000mAh 大容量電池以及 QC 4.0+ 快充技術等重點功能。
+<div class="douyetong-lineheight">
+  千呼萬喚始出來的 Razer 旗下首支智慧型手機「Razer Phone」，已經在台灣時間今（2）凌晨 4:00 的倫敦發表會公開，針對遊戲玩家提供 120Hz 畫面更新率、4000mAh 大容量電池以及 QC 4.0+ 快充技術等重點功能。
+</div>
+
+<!--對應加線區塊-->
+<div class="douyetong-bordersolid">
+  加線區塊加線區塊<br>加線區塊加線區塊<br>加線區塊加線區塊<br>加線區塊加線區塊<br>加線區塊加線區塊<br>加線區塊加線區塊<br>加線區塊加線區塊<br>加線區塊加線區塊<br>加線區塊加線區塊<br>加線區塊加線區塊
+</div><br>
+
+<!-- 對應與上行文字間距-->
+豆頁痛
+<div class="douyetong-margintop">
+  跟上面豆頁痛有50px距離
+</div>
+
+<!-- 對應margin -->
+<div class="douyetong-margin">
+  我跟上下左右都有10px距離 <br>
+  SO DON'T FUCKING TOUCH ME
+</div>
+
+<!-- 對應內距-->
+<div class="douyetong-padding">
+  我跟上下左右的框線都有10px距離 <br>
+  so don't fucking touch me
+</div>
+
+<!--對應以有定位的外層標籤為基準-->
+<div class="box box-a">
+  box a 內容
+  <div class="box box-b">
+    box b 內容
+  </div>
+</div>
+
+<!--對應hover-->
+一般的文字
+<a class="my-class"href="#">超連結</a>
+<a class="my-class"href="#">移過超連結</a>
+
+
+
+
+
+    <!-- basic word type -->
+    <h1>主標籤</h1>
+    <h2>次標籤</h2>
+    <b>我是粗體字</b><br>
+    <u>我是底線字</u>
+    <ol>
+      <li>蔬菜</li>
+      <li>蘋果</li>
+      <li>橘子</li>
+    </ol>
+    <ul>
+      <li>錢包</li>
+      <li>手機</li>
+      <li>鑰匙</li>
+    </ul>
+    <table border="1">
+      <tr>
+        <td>box1</td>
+        <td>box2</td>
+      </tr>
+      <tr>
+        <td>box3</td>
+        <td>box4</td>
+      </tr>
+      <!-- 嵌入圖片 -->
+      <img src="https://i.imgur.com/6rsSdiT.png" alt="">
+      <!-- 超連結 -->
+          <a href="about.html">
+            link to about</a><br>
+      <!-- 文字顏色 -->
+          <div style="color: red;">red</div>
+          <div style="color: green;">green</div>
+          <span style="color: #555B6E;">#555B6E</span><br>
+          <span style="color: black;">black</span><br>
+          <span style="color: #89B0AE;">#89B0AE</span><br>
+
+          <span style=
+          "color: red; background-color: yellow;">我是紅色
+          </span><br>
+
+          <!-- 豆頁可可註解 -->
+          <!-- 你好啊旅行者 -->
+          豆頁可可看見<br>
+          <span style="color: red;">勝利或死亡</span>
+
+
+
+
+  </body>
+</html>
